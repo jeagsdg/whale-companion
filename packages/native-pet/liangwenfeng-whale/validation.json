@@ -1,0 +1,16 @@
+{
+  "sha256": "251587efaad0906f4b0310fc43534f1e00e741abe5bc90e2d790eebfdea65057",
+  "cardinalBlindChecks": "pass",
+  "width": 1536,
+  "minorDirectionWarnings": [
+    "horizontal-6 B horizontal axis is ambiguous",
+    "horizontal-7 B horizontal axis is ambiguous",
+    "vertical-7 A vertical axis is ambiguous"
+  ],
+  "lookDirections": 16,
+  "createdAt": "2026-10-16T07:15:05.9347476+00:00",
+  "standardStates": 9,
+  "height": 2288,
+  "spriteVersionNumber": 2,
+  "ok": true
+}

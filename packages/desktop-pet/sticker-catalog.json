@@ -1,0 +1,1233 @@
+{
+  "version": 2,
+  "groups": [
+    {
+      "id": "emotion",
+      "label": "情绪"
+    },
+    {
+      "id": "work",
+      "label": "工作"
+    },
+    {
+      "id": "life",
+      "label": "生活"
+    },
+    {
+      "id": "weather",
+      "label": "天气"
+    },
+    {
+      "id": "festival",
+      "label": "节日"
+    },
+    {
+      "id": "interaction",
+      "label": "互动"
+    }
+  ],
+  "bindings": {
+    "think": "v3-debug",
+    "tool": "v3-working",
+    "running": "v3-working",
+    "ok": "v3-success",
+    "err": "v3-debug",
+    "wait": "v3-received",
+    "greet": "v3-hello",
+    "night": "v3-calm",
+    "sleep": "v3-tired",
+    "afk": "v3-tired",
+    "work-sleep": "v3-tired",
+    "daily-done": "v3-success",
+    "work-pat": "v3-comfort",
+    "daily-coffee": "v3-tea"
+  },
+  "stickers": [
+    {
+      "id": "home-peek",
+      "pose": "peek",
+      "file": "assets/peek.png",
+      "caption": "在看你",
+      "en": "Peeking",
+      "group": "interaction",
+      "tags": [
+        "interaction"
+      ]
+    },
+    {
+      "id": "settings-peek",
+      "pose": "settings-peek",
+      "file": "assets/settings-peek.png",
+      "caption": "改设置",
+      "en": "Tweaking",
+      "group": "work",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "id": "abstract",
+      "pose": "abstract",
+      "file": "assets/abstract.png",
+      "caption": "我裂开了",
+      "en": "I'm broken",
+      "group": "emotion",
+      "tags": [
+        "emotion"
+      ]
+    },
+    {
+      "id": "achievement",
+      "pose": "achievement",
+      "file": "assets/achievement.png",
+      "caption": "成就达成",
+      "en": "Achieved",
+      "group": "work",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "id": "afk",
+      "pose": "afk",
+      "file": "assets/afk.png",
+      "caption": "摸鱼中",
+      "en": "Slacking",
+      "group": "life",
+      "tags": [
+        "life"
+      ]
+    },
+    {
+      "id": "angry",
+      "pose": "angry",
+      "file": "assets/angry.png",
+      "caption": "别惹我",
+      "en": "Don't",
+      "group": "emotion",
+      "tags": [
+        "emotion"
+      ]
+    },
+    {
+      "id": "balance-low",
+      "pose": "balance-low",
+      "file": "assets/balance-low.png",
+      "caption": "余额告急",
+      "en": "Low balance",
+      "group": "work",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "id": "blush",
+      "pose": "blush",
+      "file": "assets/blush.png",
+      "caption": "害羞",
+      "en": "Blush",
+      "group": "emotion",
+      "tags": [
+        "emotion"
+      ]
+    },
+    {
+      "id": "bold",
+      "pose": "bold",
+      "file": "assets/bold.png",
+      "caption": "交给我",
+      "en": "Leave it",
+      "group": "emotion",
+      "tags": [
+        "emotion"
+      ]
+    },
+    {
+      "id": "celebrate",
+      "pose": "celebrate",
+      "file": "assets/celebrate.png",
+      "caption": "好耶",
+      "en": "Yay",
+      "group": "emotion",
+      "tags": [
+        "emotion",
+        "happy"
+      ]
+    },
+    {
+      "id": "cool-shades",
+      "pose": "cool-shades",
+      "file": "assets/cool-shades.png",
+      "caption": "稳",
+      "en": "Too cool",
+      "group": "emotion",
+      "tags": [
+        "emotion"
+      ]
+    },
+    {
+      "id": "curious",
+      "pose": "curious",
+      "file": "assets/curious.png",
+      "caption": "嗯？",
+      "en": "Huh?",
+      "group": "emotion",
+      "tags": [
+        "emotion"
+      ]
+    },
+    {
+      "id": "daily-coffee",
+      "pose": "daily-coffee",
+      "file": "assets/daily-coffee.png",
+      "caption": "续命中",
+      "en": "Coffee",
+      "group": "life",
+      "tags": [
+        "life",
+        "break"
+      ]
+    },
+    {
+      "id": "daily-cooking",
+      "pose": "daily-cooking",
+      "file": "assets/daily-cooking.png",
+      "caption": "做饭中",
+      "en": "Cooking",
+      "group": "life",
+      "tags": [
+        "life"
+      ]
+    },
+    {
+      "id": "daily-done",
+      "pose": "daily-done",
+      "file": "assets/daily-done.png",
+      "caption": "收工",
+      "en": "Done today",
+      "group": "life",
+      "tags": [
+        "life",
+        "rest"
+      ]
+    },
+    {
+      "id": "daily-eat",
+      "pose": "daily-eat",
+      "file": "assets/daily-eat.png",
+      "caption": "干饭时间",
+      "en": "Food time",
+      "group": "life",
+      "tags": [
+        "life"
+      ]
+    },
+    {
+      "id": "daily-fishing",
+      "pose": "daily-fishing",
+      "file": "assets/daily-fishing.png",
+      "caption": "去钓鱼",
+      "en": "Fishing",
+      "group": "life",
+      "tags": [
+        "life"
+      ]
+    },
+    {
+      "id": "daily-gaming",
+      "pose": "daily-gaming",
+      "file": "assets/daily-gaming.png",
+      "caption": "打游戏",
+      "en": "Gaming",
+      "group": "life",
+      "tags": [
+        "life"
+      ]
+    },
+    {
+      "id": "daily-melt",
+      "pose": "daily-melt",
+      "file": "assets/daily-melt.png",
+      "caption": "化了",
+      "en": "Melting",
+      "group": "life",
+      "tags": [
+        "life"
+      ]
+    },
+    {
+      "id": "daily-painting",
+      "pose": "daily-painting",
+      "file": "assets/daily-painting.png",
+      "caption": "画画中",
+      "en": "Painting",
+      "group": "life",
+      "tags": [
+        "life"
+      ]
+    },
+    {
+      "id": "daily-pajama",
+      "pose": "daily-pajama",
+      "file": "assets/daily-pajama.png",
+      "caption": "下班了",
+      "en": "Off duty",
+      "group": "life",
+      "tags": [
+        "life"
+      ]
+    },
+    {
+      "id": "daily-picnic",
+      "pose": "daily-picnic",
+      "file": "assets/daily-picnic.png",
+      "caption": "野餐去",
+      "en": "Picnic",
+      "group": "life",
+      "tags": [
+        "life"
+      ]
+    },
+    {
+      "id": "daily-shower",
+      "pose": "daily-shower",
+      "file": "assets/daily-shower.png",
+      "caption": "洗澡去了",
+      "en": "Shower",
+      "group": "life",
+      "tags": [
+        "life"
+      ]
+    },
+    {
+      "id": "daily-stretch",
+      "pose": "daily-stretch",
+      "file": "assets/daily-stretch.png",
+      "caption": "伸个懒腰",
+      "en": "Stretch",
+      "group": "life",
+      "tags": [
+        "life",
+        "break"
+      ]
+    },
+    {
+      "id": "eat",
+      "pose": "eat",
+      "file": "assets/eat.png",
+      "caption": "干饭",
+      "en": "Food time",
+      "group": "life",
+      "tags": [
+        "life"
+      ]
+    },
+    {
+      "id": "failure",
+      "pose": "err",
+      "file": "assets/err.png",
+      "caption": "又炸了",
+      "en": "It broke",
+      "group": "work",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "id": "festival-christmas",
+      "pose": "festival-christmas",
+      "file": "assets/festival-christmas.png",
+      "caption": "圣诞快乐",
+      "en": "Merry Xmas",
+      "group": "festival",
+      "tags": [
+        "festival"
+      ]
+    },
+    {
+      "id": "festival-halloween",
+      "pose": "festival-halloween",
+      "file": "assets/festival-halloween.png",
+      "caption": "不给糖就捣蛋",
+      "en": "Trick or treat",
+      "group": "festival",
+      "tags": [
+        "festival"
+      ]
+    },
+    {
+      "id": "festival-mid-autumn",
+      "pose": "festival-mid-autumn",
+      "file": "assets/festival-mid-autumn.png",
+      "caption": "中秋快乐",
+      "en": "Mooncake day",
+      "group": "festival",
+      "tags": [
+        "festival"
+      ]
+    },
+    {
+      "id": "festival-spring",
+      "pose": "festival-spring",
+      "file": "assets/festival-spring.png",
+      "caption": "新年快乐",
+      "en": "Happy New Year",
+      "group": "festival",
+      "tags": [
+        "festival"
+      ]
+    },
+    {
+      "id": "game-cheat",
+      "pose": "game-cheat",
+      "file": "assets/game-cheat.png",
+      "caption": "作弊？",
+      "en": "Cheating?",
+      "group": "interaction",
+      "tags": [
+        "interaction"
+      ]
+    },
+    {
+      "id": "game-happy",
+      "pose": "game-happy",
+      "file": "assets/game-happy.png",
+      "caption": "来玩",
+      "en": "Let's play",
+      "group": "interaction",
+      "tags": [
+        "interaction",
+        "happy"
+      ]
+    },
+    {
+      "id": "game-lose",
+      "pose": "game-lose",
+      "file": "assets/game-lose.png",
+      "caption": "输了",
+      "en": "I lost",
+      "group": "interaction",
+      "tags": [
+        "interaction"
+      ]
+    },
+    {
+      "id": "game-think",
+      "pose": "game-think",
+      "file": "assets/game-think.png",
+      "caption": "你先出",
+      "en": "Your turn",
+      "group": "interaction",
+      "tags": [
+        "interaction"
+      ]
+    },
+    {
+      "id": "game-win",
+      "pose": "game-win",
+      "file": "assets/game-win.png",
+      "caption": "赢了",
+      "en": "I win",
+      "group": "interaction",
+      "tags": [
+        "interaction"
+      ]
+    },
+    {
+      "id": "greet",
+      "pose": "greet",
+      "file": "assets/greet.png",
+      "caption": "早上好",
+      "en": "Morning",
+      "group": "life",
+      "tags": [
+        "life"
+      ]
+    },
+    {
+      "id": "idle-cute",
+      "pose": "idle",
+      "file": "assets/idle.png",
+      "caption": "在的",
+      "en": "I'm here",
+      "group": "interaction",
+      "tags": [
+        "interaction",
+        "company",
+        "calm"
+      ]
+    },
+    {
+      "id": "levelup",
+      "pose": "levelup",
+      "file": "assets/levelup.png",
+      "caption": "升级了",
+      "en": "Level up",
+      "group": "work",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "id": "meme-broke",
+      "pose": "meme-broke",
+      "file": "assets/meme-broke.png",
+      "caption": "吃土",
+      "en": "Broke",
+      "group": "emotion",
+      "tags": [
+        "emotion"
+      ]
+    },
+    {
+      "id": "meme-cry",
+      "pose": "meme-cry",
+      "file": "assets/meme-cry.png",
+      "caption": "哭死",
+      "en": "Crying",
+      "group": "emotion",
+      "tags": [
+        "emotion",
+        "sad"
+      ]
+    },
+    {
+      "id": "meme-doge",
+      "pose": "meme-doge",
+      "file": "assets/meme-doge.png",
+      "caption": "就这？",
+      "en": "That's it?",
+      "group": "emotion",
+      "tags": [
+        "emotion"
+      ]
+    },
+    {
+      "id": "meme-doubt",
+      "pose": "meme-doubt",
+      "file": "assets/meme-doubt.png",
+      "caption": "你确定？",
+      "en": "You sure?",
+      "group": "emotion",
+      "tags": [
+        "emotion"
+      ]
+    },
+    {
+      "id": "meme-heart",
+      "pose": "meme-heart",
+      "file": "assets/meme-heart.png",
+      "caption": "爱你",
+      "en": "Love you",
+      "group": "emotion",
+      "tags": [
+        "emotion",
+        "affection",
+        "comfort"
+      ]
+    },
+    {
+      "id": "meme-kyun",
+      "pose": "meme-kyun",
+      "file": "assets/meme-kyun.png",
+      "caption": "心动",
+      "en": "Heartbeat",
+      "group": "emotion",
+      "tags": [
+        "emotion",
+        "affection"
+      ]
+    },
+    {
+      "id": "meme-music",
+      "pose": "meme-music",
+      "file": "assets/meme-music.png",
+      "caption": "听歌中",
+      "en": "Music on",
+      "group": "life",
+      "tags": [
+        "life"
+      ]
+    },
+    {
+      "id": "meme-no",
+      "pose": "no",
+      "file": "assets/no.png",
+      "caption": "不行",
+      "en": "Nope",
+      "group": "emotion",
+      "tags": [
+        "emotion"
+      ]
+    },
+    {
+      "id": "meme-ojisan",
+      "pose": "meme-ojisan",
+      "file": "assets/meme-ojisan.png",
+      "caption": "想当年",
+      "en": "Back then",
+      "group": "emotion",
+      "tags": [
+        "emotion"
+      ]
+    },
+    {
+      "id": "meme-omg",
+      "pose": "meme-omg",
+      "file": "assets/meme-omg.png",
+      "caption": "离谱",
+      "en": "No way",
+      "group": "emotion",
+      "tags": [
+        "emotion"
+      ]
+    },
+    {
+      "id": "meme-peace",
+      "pose": "meme-peace",
+      "file": "assets/meme-peace.png",
+      "caption": "随缘",
+      "en": "Whatever",
+      "group": "emotion",
+      "tags": [
+        "emotion",
+        "calm"
+      ]
+    },
+    {
+      "id": "meme-shock",
+      "pose": "meme-shock",
+      "file": "assets/meme-shock.png",
+      "caption": "震惊",
+      "en": "Shocked",
+      "group": "emotion",
+      "tags": [
+        "emotion"
+      ]
+    },
+    {
+      "id": "meme-sike",
+      "pose": "meme-sike",
+      "file": "assets/meme-sike.png",
+      "caption": "想得美",
+      "en": "Nice try",
+      "group": "emotion",
+      "tags": [
+        "emotion"
+      ]
+    },
+    {
+      "id": "meme-smile-pain",
+      "pose": "meme-smile-pain",
+      "file": "assets/meme-smile-pain.png",
+      "caption": "我没事",
+      "en": "I'm fine",
+      "group": "emotion",
+      "tags": [
+        "emotion",
+        "sad"
+      ]
+    },
+    {
+      "id": "meme-smug",
+      "pose": "meme-smug",
+      "file": "assets/meme-smug.png",
+      "caption": "嘿嘿",
+      "en": "Hehe",
+      "group": "emotion",
+      "tags": [
+        "emotion"
+      ]
+    },
+    {
+      "id": "meme-wakuwaku",
+      "pose": "meme-wakuwaku",
+      "file": "assets/meme-wakuwaku.png",
+      "caption": "期待",
+      "en": "Excited",
+      "group": "emotion",
+      "tags": [
+        "emotion"
+      ]
+    },
+    {
+      "id": "meme-worship",
+      "pose": "meme-worship",
+      "file": "assets/meme-worship.png",
+      "caption": "大佬带带我",
+      "en": "Teach me",
+      "group": "emotion",
+      "tags": [
+        "emotion"
+      ]
+    },
+    {
+      "id": "meme-yes",
+      "pose": "meme-yes",
+      "file": "assets/meme-yes.png",
+      "caption": "可以",
+      "en": "Yes",
+      "group": "emotion",
+      "tags": [
+        "emotion"
+      ]
+    },
+    {
+      "id": "night",
+      "pose": "night",
+      "file": "assets/night.png",
+      "caption": "晚安",
+      "en": "Good night",
+      "group": "life",
+      "tags": [
+        "life"
+      ]
+    },
+    {
+      "id": "pick-up",
+      "pose": "pick-up",
+      "file": "assets/pick-up.png",
+      "caption": "放我下来",
+      "en": "Put me down",
+      "group": "interaction",
+      "tags": [
+        "interaction"
+      ]
+    },
+    {
+      "id": "react-belly",
+      "pose": "react-belly",
+      "file": "assets/react-belly.png",
+      "caption": "别摸肚子",
+      "en": "Not belly",
+      "group": "interaction",
+      "tags": [
+        "interaction"
+      ]
+    },
+    {
+      "id": "react-head",
+      "pose": "react-head",
+      "file": "assets/react-head.png",
+      "caption": "摸摸头",
+      "en": "Pat pat",
+      "group": "interaction",
+      "tags": [
+        "interaction",
+        "comfort"
+      ]
+    },
+    {
+      "id": "react-tail",
+      "pose": "react-tail",
+      "file": "assets/react-tail.png",
+      "caption": "别碰尾巴",
+      "en": "Mind tail",
+      "group": "interaction",
+      "tags": [
+        "interaction"
+      ]
+    },
+    {
+      "id": "running",
+      "pose": "running",
+      "file": "assets/running.png",
+      "caption": "跑起来了",
+      "en": "Running",
+      "group": "work",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "id": "sleep",
+      "pose": "sleep",
+      "file": "assets/sleep.png",
+      "caption": "睡了",
+      "en": "Sleeping",
+      "group": "life",
+      "tags": [
+        "life"
+      ]
+    },
+    {
+      "id": "star",
+      "pose": "star",
+      "file": "assets/star.png",
+      "caption": "绝了",
+      "en": "Amazing",
+      "group": "emotion",
+      "tags": [
+        "emotion"
+      ]
+    },
+    {
+      "id": "success",
+      "pose": "ok",
+      "file": "assets/ok.png",
+      "caption": "搞定",
+      "en": "Done",
+      "group": "work",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "id": "sweep",
+      "pose": "sweep",
+      "file": "assets/sweep.png",
+      "caption": "收拾一下",
+      "en": "Tidy up",
+      "group": "life",
+      "tags": [
+        "life"
+      ]
+    },
+    {
+      "id": "tail-swing",
+      "pose": "tail-swing",
+      "file": "assets/tail-swing.png",
+      "caption": "开心",
+      "en": "Happy",
+      "group": "emotion",
+      "tags": [
+        "emotion",
+        "happy"
+      ]
+    },
+    {
+      "id": "teasing",
+      "pose": "teasing",
+      "file": "assets/teasing.png",
+      "caption": "逗你一下",
+      "en": "Just teasing",
+      "group": "interaction",
+      "tags": [
+        "interaction"
+      ]
+    },
+    {
+      "id": "thinking",
+      "pose": "think",
+      "file": "assets/think.png",
+      "caption": "让我想想",
+      "en": "Hmm...",
+      "group": "work",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "id": "tool",
+      "pose": "tool",
+      "file": "assets/tool.png",
+      "caption": "忙起来了",
+      "en": "Busy",
+      "group": "work",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "id": "valentine",
+      "pose": "valentine",
+      "file": "assets/valentine.png",
+      "caption": "情人节快乐",
+      "en": "Be mine",
+      "group": "festival",
+      "tags": [
+        "festival"
+      ]
+    },
+    {
+      "id": "waiting",
+      "pose": "wait",
+      "file": "assets/wait.png",
+      "caption": "等你",
+      "en": "Waiting",
+      "group": "work",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "id": "weather-cold",
+      "pose": "weather-cold",
+      "file": "assets/weather-cold.png",
+      "caption": "好冷",
+      "en": "So cold",
+      "group": "weather",
+      "tags": [
+        "weather"
+      ]
+    },
+    {
+      "id": "weather-rain-happy",
+      "pose": "weather-rain-happy",
+      "file": "assets/weather-rain-happy.png",
+      "caption": "下雨了",
+      "en": "Raining",
+      "group": "weather",
+      "tags": [
+        "weather"
+      ]
+    },
+    {
+      "id": "weather-snow",
+      "pose": "weather-snow",
+      "file": "assets/weather-snow.png",
+      "caption": "下雪了",
+      "en": "Snowing",
+      "group": "weather",
+      "tags": [
+        "weather"
+      ]
+    },
+    {
+      "id": "weather-thunder",
+      "pose": "weather-thunder",
+      "file": "assets/weather-thunder.png",
+      "caption": "打雷了",
+      "en": "Thunder",
+      "group": "weather",
+      "tags": [
+        "weather"
+      ]
+    },
+    {
+      "id": "weather-umbrella",
+      "pose": "weather-umbrella",
+      "file": "assets/weather-umbrella.png",
+      "caption": "带伞",
+      "en": "Umbrella",
+      "group": "weather",
+      "tags": [
+        "weather"
+      ]
+    },
+    {
+      "id": "wink",
+      "pose": "wink",
+      "file": "assets/wink.png",
+      "caption": "懂的都懂",
+      "en": "You know",
+      "group": "interaction",
+      "tags": [
+        "interaction"
+      ]
+    },
+    {
+      "id": "work-boss",
+      "pose": "work-boss",
+      "file": "assets/work-boss.png",
+      "caption": "老板来了",
+      "en": "Boss is here",
+      "group": "work",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "id": "work-celebrate",
+      "pose": "work-celebrate",
+      "file": "assets/work-celebrate.png",
+      "caption": "发版成功",
+      "en": "Shipped!",
+      "group": "work",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "id": "work-deadline",
+      "pose": "work-deadline",
+      "file": "assets/work-deadline.png",
+      "caption": "要 deadline 了",
+      "en": "Deadline!",
+      "group": "work",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "id": "work-debug",
+      "pose": "work-debug",
+      "file": "assets/work-debug.png",
+      "caption": "修 bug 中",
+      "en": "Debugging",
+      "group": "work",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "id": "work-deploy",
+      "pose": "work-deploy",
+      "file": "assets/work-deploy.png",
+      "caption": "上线了",
+      "en": "Deploying",
+      "group": "work",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "id": "work-idea",
+      "pose": "work-idea",
+      "file": "assets/work-idea.png",
+      "caption": "有想法了",
+      "en": "Idea!",
+      "group": "work",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "id": "work-meeting",
+      "pose": "work-meeting",
+      "file": "assets/work-meeting.png",
+      "caption": "开会中",
+      "en": "Meeting",
+      "group": "work",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "id": "work-pat",
+      "pose": "work-pat",
+      "file": "assets/work-pat.png",
+      "caption": "加油",
+      "en": "You got this",
+      "group": "work",
+      "tags": [
+        "work",
+        "encouragement",
+        "comfort"
+      ]
+    },
+    {
+      "id": "work-ram",
+      "pose": "work-ram",
+      "file": "assets/work-ram.png",
+      "caption": "内存爆了",
+      "en": "Out of RAM",
+      "group": "work",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "id": "work-review",
+      "pose": "work-review",
+      "file": "assets/work-review.png",
+      "caption": "看过了",
+      "en": "LGTM",
+      "group": "work",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "id": "work-slack-phone",
+      "pose": "work-slack-phone",
+      "file": "assets/work-slack-phone.png",
+      "caption": "值班中",
+      "en": "On call",
+      "group": "work",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "id": "work-slack",
+      "pose": "work-slack",
+      "file": "assets/work-slack.png",
+      "caption": "来消息了",
+      "en": "Ping!",
+      "group": "work",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "id": "work-sleep",
+      "pose": "work-sleep",
+      "file": "assets/work-sleep.png",
+      "caption": "上班摸鱼",
+      "en": "Napping",
+      "group": "work",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "id": "workbench-peek",
+      "pose": "workbench-peek",
+      "file": "assets/workbench-peek.png",
+      "caption": "忙啥呢",
+      "en": "Whatcha doing",
+      "group": "work",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "id": "v3-hello",
+      "caption": "我在呢",
+      "en": "Hello",
+      "group": "interaction",
+      "tags": [
+        "greeting",
+        "company"
+      ],
+      "pose": "v3-hello",
+      "file": "assets/v3-hello.png",
+      "recommended": true
+    },
+    {
+      "id": "v3-received",
+      "caption": "收到，交给我",
+      "en": "Got it",
+      "group": "work",
+      "tags": [
+        "acknowledgement",
+        "work"
+      ],
+      "pose": "v3-received",
+      "file": "assets/v3-received.png",
+      "recommended": true
+    },
+    {
+      "id": "v3-working",
+      "caption": "认真处理中",
+      "en": "On it",
+      "group": "work",
+      "tags": [
+        "focus",
+        "work"
+      ],
+      "pose": "v3-working",
+      "file": "assets/v3-working.png",
+      "recommended": true
+    },
+    {
+      "id": "v3-debug",
+      "caption": "我来看看",
+      "en": "Looking into it",
+      "group": "work",
+      "tags": [
+        "thinking",
+        "debugging"
+      ],
+      "pose": "v3-debug",
+      "file": "assets/v3-debug.png",
+      "recommended": true
+    },
+    {
+      "id": "v3-success",
+      "caption": "搞定啦",
+      "en": "All done",
+      "group": "work",
+      "tags": [
+        "success",
+        "encouragement"
+      ],
+      "pose": "v3-success",
+      "file": "assets/v3-success.png",
+      "recommended": true
+    },
+    {
+      "id": "v3-thanks",
+      "caption": "谢谢你呀",
+      "en": "Thank you",
+      "group": "interaction",
+      "tags": [
+        "gratitude",
+        "affection"
+      ],
+      "pose": "v3-thanks",
+      "file": "assets/v3-thanks.png",
+      "recommended": true
+    },
+    {
+      "id": "v3-decline",
+      "caption": "这次先不了",
+      "en": "Not this time",
+      "group": "interaction",
+      "tags": [
+        "decline",
+        "calm"
+      ],
+      "pose": "v3-decline",
+      "file": "assets/v3-decline.png",
+      "recommended": true
+    },
+    {
+      "id": "v3-comfort",
+      "caption": "抱抱，慢慢来",
+      "en": "Here for you",
+      "group": "emotion",
+      "tags": [
+        "comfort",
+        "encouragement"
+      ],
+      "pose": "v3-comfort",
+      "file": "assets/v3-comfort.png",
+      "recommended": true
+    },
+    {
+      "id": "v3-happy",
+      "caption": "一起开心",
+      "en": "So happy",
+      "group": "emotion",
+      "tags": [
+        "happy",
+        "celebration"
+      ],
+      "pose": "v3-happy",
+      "file": "assets/v3-happy.png",
+      "recommended": true
+    },
+    {
+      "id": "v3-calm",
+      "caption": "先缓一缓",
+      "en": "Take a breath",
+      "group": "emotion",
+      "tags": [
+        "calm",
+        "comfort"
+      ],
+      "pose": "v3-calm",
+      "file": "assets/v3-calm.png",
+      "recommended": true
+    },
+    {
+      "id": "v3-tired",
+      "caption": "陪你歇一会",
+      "en": "Rest a little",
+      "group": "life",
+      "tags": [
+        "tired",
+        "rest",
+        "comfort"
+      ],
+      "pose": "v3-tired",
+      "file": "assets/v3-tired.png",
+      "recommended": true
+    },
+    {
+      "id": "v3-tea",
+      "caption": "喝口水，充个电",
+      "en": "Take a break",
+      "group": "life",
+      "tags": [
+        "break",
+        "rest"
+      ],
+      "pose": "v3-tea",
+      "file": "assets/v3-tea.png",
+      "recommended": true
+    }
+  ]
+}

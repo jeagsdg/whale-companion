@@ -1,0 +1,54 @@
+# dsh-whale-notify bundle patch —— 鲸鱼娘桌宠 + 桌面提醒，一次挂上。
+# 单包双面（dsh.bundle + dsh.client）：
+#   · 宿主半边：只读资源路由 /api/dsh-whale-musume/assets + 桌面提醒引擎；
+#   · 浏览器半边：注入鲸鱼娘桌宠，并接住提醒——她换姿态、冒一句话、举一张提醒牌子。
+- insert:
+    - id: dsh-whale-notify
+      name: dsh-whale-notify
+      config:
+        # 总开关
+        enabled: true
+        # 各类事件开关
+        classes:
+          approval: true
+          question: true
+          completion: true
+          failure: true
+          aborted: true
+        # 默认只通过桌宠提醒；需要系统通知时可单独启用。
+        channels:
+          toast: false
+          alert: false
+        # 双通道全开时一次提醒只弹一个：前台全屏 → 只弹卡片；否则只弹横幅
+        alertOnlyWhenFullscreen: true
+        # 各类浮窗停留秒数（0 = 一直留到你点）
+        alertSeconds:
+          approval: 30
+          question: 30
+          failure: 25
+          aborted: 25
+          completion: 10
+        # 触发门：只有「窗口没聚焦，或聚焦的不是发出通知的那个对话」才提醒
+        gateOnFocus: true
+        backgroundGraceMs: 45000
+        # 短于该时长的回合不通知（过滤连续小回合刷屏）
+        minTurnMs: 5000
+        dedupeMs: 8000
+        waitingDedupeMs: 15000
+        minGapMs: 1500
+        settleMs: 400
+        # 「正看着被抑制」的复核补发窗口（只对授权/提问生效）
+        recheckMs: 1800
+        # 宿主侧在场门控：心跳过期/页面没开时，前台是 DSH 就安静
+        hostPresenceGate: true
+        # 子代理 / workflow 子会话是否也通知
+        notifySubagents: false
+        # 等你在场的事件（授权/提问）与失败/中止用常驻横幅；完成类自动消失
+        stickyBlocking: true
+        # 点击通知 → 唤起窗口并落到那条通知对应的对话
+        clickToFocus: true
+        sound: true
+        # 判定日志：%USERPROFILE%\.dsh\dsh-desktop-notify.log
+        debug: true
+        # 上线问候只由桌宠表达，不启动额外通知窗口。
+        greeting: true

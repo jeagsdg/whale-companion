@@ -1,0 +1,8 @@
+/* 鲸鱼娘三姐妹：用皮肤自己的原画，视口固定定位（不依赖皮肤的容器与状态机）。 */
+[data-maid-character]{ display: none !important; }
+#whale-three-stage { position: fixed; inset: 0; pointer-events: none; z-index: 3; overflow: visible; }
+#whale-three-stage img { position: fixed; bottom: 0; object-fit: contain; object-position: center bottom;
+  filter: drop-shadow(0 18px 26px rgba(14,28,58,0.30)); }
+#whale-three-stage img[data-role="left"] { left: 0; height: 84vh; }
+#whale-three-stage img[data-role="vision"] { left: 50vw; transform: translateX(-50%); height: 60vh; opacity: .97; }
+#whale-three-stage img[data-role="right"] { right: 0; left: auto; height: 60vh; opacity: .97; }

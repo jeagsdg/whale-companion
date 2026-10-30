@@ -1,0 +1,382 @@
+{
+  "idle-cute": [
+    "在的",
+    "I'm here"
+  ],
+  "thinking": [
+    "让我想想",
+    "Hmm..."
+  ],
+  "curious": [
+    "嗯？",
+    "Huh?"
+  ],
+  "waiting": [
+    "等你",
+    "Waiting"
+  ],
+  "tool": [
+    "忙起来了",
+    "Busy"
+  ],
+  "running": [
+    "跑起来了",
+    "Running"
+  ],
+  "success": [
+    "搞定",
+    "Done"
+  ],
+  "failure": [
+    "又炸了",
+    "It broke"
+  ],
+  "afk": [
+    "摸鱼中",
+    "Slacking"
+  ],
+  "sleep": [
+    "睡了",
+    "Sleeping"
+  ],
+  "night": [
+    "晚安",
+    "Good night"
+  ],
+  "greet": [
+    "早上好",
+    "Morning"
+  ],
+  "wink": [
+    "懂的都懂",
+    "You know"
+  ],
+  "teasing": [
+    "逗你一下",
+    "Just teasing"
+  ],
+  "blush": [
+    "害羞",
+    "Blush"
+  ],
+  "angry": [
+    "别惹我",
+    "Don't"
+  ],
+  "bold": [
+    "交给我",
+    "Leave it"
+  ],
+  "abstract": [
+    "我裂开了",
+    "I'm broken"
+  ],
+  "star": [
+    "绝了",
+    "Amazing"
+  ],
+  "celebrate": [
+    "好耶",
+    "Yay"
+  ],
+  "levelup": [
+    "升级了",
+    "Level up"
+  ],
+  "achievement": [
+    "成就达成",
+    "Achieved"
+  ],
+  "cool-shades": [
+    "稳",
+    "Too cool"
+  ],
+  "tail-swing": [
+    "开心",
+    "Happy"
+  ],
+  "pick-up": [
+    "放我下来",
+    "Put me down"
+  ],
+  "sweep": [
+    "收拾一下",
+    "Tidy up"
+  ],
+  "eat": [
+    "干饭",
+    "Food time"
+  ],
+  "balance-low": [
+    "余额告急",
+    "Low balance"
+  ],
+  "react-head": [
+    "摸摸头",
+    "Pat pat"
+  ],
+  "react-belly": [
+    "别摸肚子",
+    "Not belly"
+  ],
+  "react-tail": [
+    "别碰尾巴",
+    "Mind tail"
+  ],
+  "daily-coffee": [
+    "续命中",
+    "Coffee"
+  ],
+  "daily-eat": [
+    "干饭时间",
+    "Food time"
+  ],
+  "daily-stretch": [
+    "伸个懒腰",
+    "Stretch"
+  ],
+  "daily-pajama": [
+    "下班了",
+    "Off duty"
+  ],
+  "daily-shower": [
+    "洗澡去了",
+    "Shower"
+  ],
+  "daily-cooking": [
+    "做饭中",
+    "Cooking"
+  ],
+  "daily-gaming": [
+    "打游戏",
+    "Gaming"
+  ],
+  "daily-fishing": [
+    "去钓鱼",
+    "Fishing"
+  ],
+  "daily-painting": [
+    "画画中",
+    "Painting"
+  ],
+  "daily-picnic": [
+    "野餐去",
+    "Picnic"
+  ],
+  "daily-melt": [
+    "化了",
+    "Melting"
+  ],
+  "daily-done": [
+    "收工",
+    "Done today"
+  ],
+  "game-win": [
+    "赢了",
+    "I win"
+  ],
+  "game-lose": [
+    "输了",
+    "I lost"
+  ],
+  "game-think": [
+    "你先出",
+    "Your turn"
+  ],
+  "game-happy": [
+    "来玩",
+    "Let's play"
+  ],
+  "game-cheat": [
+    "作弊？",
+    "Cheating?"
+  ],
+  "meme-yes": [
+    "可以",
+    "Yes"
+  ],
+  "meme-no": [
+    "不行",
+    "Nope"
+  ],
+  "meme-doubt": [
+    "你确定？",
+    "You sure?"
+  ],
+  "meme-omg": [
+    "离谱",
+    "No way"
+  ],
+  "meme-shock": [
+    "震惊",
+    "Shocked"
+  ],
+  "meme-cry": [
+    "哭死",
+    "Crying"
+  ],
+  "meme-broke": [
+    "吃土",
+    "Broke"
+  ],
+  "meme-smile-pain": [
+    "我没事",
+    "I'm fine"
+  ],
+  "meme-smug": [
+    "嘿嘿",
+    "Hehe"
+  ],
+  "meme-doge": [
+    "就这？",
+    "That's it?"
+  ],
+  "meme-kyun": [
+    "心动",
+    "Heartbeat"
+  ],
+  "meme-heart": [
+    "爱你",
+    "Love you"
+  ],
+  "meme-music": [
+    "听歌中",
+    "Music on"
+  ],
+  "meme-ojisan": [
+    "想当年",
+    "Back then"
+  ],
+  "meme-peace": [
+    "随缘",
+    "Whatever"
+  ],
+  "meme-sike": [
+    "想得美",
+    "Nice try"
+  ],
+  "meme-wakuwaku": [
+    "期待",
+    "Excited"
+  ],
+  "meme-worship": [
+    "大佬带带我",
+    "Teach me"
+  ],
+  "weather-cold": [
+    "好冷",
+    "So cold"
+  ],
+  "weather-snow": [
+    "下雪了",
+    "Snowing"
+  ],
+  "weather-rain-happy": [
+    "下雨了",
+    "Raining"
+  ],
+  "weather-thunder": [
+    "打雷了",
+    "Thunder"
+  ],
+  "weather-umbrella": [
+    "带伞",
+    "Umbrella"
+  ],
+  "work-debug": [
+    "修 bug 中",
+    "Debugging"
+  ],
+  "work-deploy": [
+    "上线了",
+    "Deploying"
+  ],
+  "work-review": [
+    "看过了",
+    "LGTM"
+  ],
+  "work-meeting": [
+    "开会中",
+    "Meeting"
+  ],
+  "work-deadline": [
+    "要 deadline 了",
+    "Deadline!"
+  ],
+  "work-boss": [
+    "老板来了",
+    "Boss is here"
+  ],
+  "work-slack": [
+    "来消息了",
+    "Ping!"
+  ],
+  "work-slack-phone": [
+    "值班中",
+    "On call"
+  ],
+  "work-idea": [
+    "有想法了",
+    "Idea!"
+  ],
+  "work-pat": [
+    "加油",
+    "You got this"
+  ],
+  "work-ram": [
+    "内存爆了",
+    "Out of RAM"
+  ],
+  "work-sleep": [
+    "上班摸鱼",
+    "Napping"
+  ],
+  "work-celebrate": [
+    "发版成功",
+    "Shipped!"
+  ],
+  "festival-christmas": [
+    "圣诞快乐",
+    "Merry Xmas"
+  ],
+  "festival-halloween": [
+    "不给糖就捣蛋",
+    "Trick or treat"
+  ],
+  "festival-mid-autumn": [
+    "中秋快乐",
+    "Mooncake day"
+  ],
+  "festival-spring": [
+    "新年快乐",
+    "Happy New Year"
+  ],
+  "valentine": [
+    "情人节快乐",
+    "Be mine"
+  ],
+  "home-peek": [
+    "在看你",
+    "Peeking"
+  ],
+  "workbench-peek": [
+    "忙啥呢",
+    "Whatcha doing"
+  ],
+  "settings-peek": [
+    "改设置",
+    "Tweaking"
+  ],
+  "dsh-whale-home-peek": [
+    "在看你",
+    "Peeking"
+  ],
+  "dsh-whale-workbench-peek": [
+    "忙啥呢",
+    "Whatcha doing"
+  ],
+  "dsh-whale-settings-peek": [
+    "改设置",
+    "Tweaking"
+  ]
+}

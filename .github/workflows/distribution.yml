@@ -1,0 +1,28 @@
+name: Validate and package
+on:
+  workflow_dispatch:
+  push:
+    tags: ['v*']
+permissions:
+  contents: read
+jobs:
+  windows:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - run: npm test
+      - run: npm run package:release
+      - uses: actions/upload-artifact@v4
+        with:
+          name: whale-distribution
+          path: |
+            dist/whale-release-*/*.zip
+            dist/whale-release-*/*.tgz
+            dist/whale-release-*/SHA256SUMS.txt
+          if-no-files-found: error

@@ -1,0 +1,59 @@
+# 本地运行产物
+.diag/
+.whale-diag/
+.probe/
+*.log
+# 上游源码快照（不要提交；按 docs/UPSTREAM.md 里的命令自行拉取）
+.src/
+# 表情包：按需单独分发，不进仓库
+鲸鱼娘表情包/
+stickers/
+
+# 旧构建目录
+dist/
+# 编辑器
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
+# Windows sandbox font caches and source-folder runtime data
+%SystemDrive%/
+packages/desktop-pet/alive.json
+packages/desktop-pet/hidden.json
+packages/desktop-pet/control.json
+packages/desktop-pet/position.json
+packages/desktop-pet/state.json
+packages/desktop-pet/show.json
+packages/desktop-pet/approvals.json
+packages/desktop-pet/pet-stats.json
+packages/desktop-pet/pet-memory.json
+packages/desktop-pet/pet-preferences.json
+packages/desktop-pet/decisions/
+packages/desktop-pet/companion-data.json
+packages/desktop-pet/news.json
+packages/desktop-pet/news-library.json
+packages/desktop-pet/news-schedule.json
+packages/desktop-pet/news-refresh.lock
+packages/desktop-pet/host-events/
+packages/desktop-pet/commands/
+packages/desktop-pet/command-results/
+packages/desktop-pet/host-lifecycle.json
+packages/desktop-pet/host-watch-alive.json
+packages/desktop-pet/launch-pending.json
+packages/desktop-pet/bridge-alive.json
+packages/desktop-pet/news-refresh-status.json
+
+# Distribution / Harmony local build state and credentials
+.build-cache/
+packages/harmony-whale/**/build/
+packages/harmony-whale/**/.hvigor/
+packages/harmony-whale/**/oh_modules/
+packages/harmony-whale/local.properties
+packages/harmony-whale/oh-package-lock.json5
+packages/harmony-whale/entry/src/main/resources/rawfile/web/assets/
+packages/harmony-whale/entry/src/main/resources/rawfile/web/bundle.js
+packages/harmony-whale/**/media/app_icon.png
+*.p12
+*.p7b
+*.cer
+*.keystore

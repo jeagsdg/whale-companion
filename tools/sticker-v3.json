@@ -1,0 +1,14 @@
+[
+  {"id":"v3-hello","caption":"我在呢","en":"Hello","group":"interaction","tags":["greeting","company"]},
+  {"id":"v3-received","caption":"收到，交给我","en":"Got it","group":"work","tags":["acknowledgement","work"]},
+  {"id":"v3-working","caption":"认真处理中","en":"On it","group":"work","tags":["focus","work"]},
+  {"id":"v3-debug","caption":"我来看看","en":"Looking into it","group":"work","tags":["thinking","debugging"]},
+  {"id":"v3-success","caption":"搞定啦","en":"All done","group":"work","tags":["success","encouragement"]},
+  {"id":"v3-thanks","caption":"谢谢你呀","en":"Thank you","group":"interaction","tags":["gratitude","affection"]},
+  {"id":"v3-decline","caption":"这次先不了","en":"Not this time","group":"interaction","tags":["decline","calm"]},
+  {"id":"v3-comfort","caption":"抱抱，慢慢来","en":"Here for you","group":"emotion","tags":["comfort","encouragement"]},
+  {"id":"v3-happy","caption":"一起开心","en":"So happy","group":"emotion","tags":["happy","celebration"]},
+  {"id":"v3-calm","caption":"先缓一缓","en":"Take a breath","group":"emotion","tags":["calm","comfort"]},
+  {"id":"v3-tired","caption":"陪你歇一会","en":"Rest a little","group":"life","tags":["tired","rest","comfort"]},
+  {"id":"v3-tea","caption":"喝口水，充个电","en":"Take a break","group":"life","tags":["break","rest"]}
+]

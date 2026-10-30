@@ -1,0 +1,50 @@
+{
+  "name": "dsh-whale-notify",
+  "version": "1.1.0",
+  "private": true,
+  "description": "鲸鱼娘桌面提醒（whale-girl desktop pet + notify）：把 dsh-whale-musume 的鲸鱼娘桌宠与 dsh-desktop-notify 的 Windows 原生提醒引擎合成一个插件——授权 / 提问 / 完成 / 出错 / 被中止都会由她来叫你，点一下回到对应对话。",
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./client": "./lib/client.js",
+    "./cordis.patch.yml": "./cordis.patch.yml",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "lib",
+    "assets",
+    "cordis.patch.yml"
+  ],
+  "license": "MIT",
+  "os": [
+    "win32"
+  ],
+  "engines": {
+    "node": ">=24",
+    "dsh": "^0.2.0-rc.2"
+  },
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "desktop-pet",
+    "whale-girl",
+    "notification",
+    "windows",
+    "toast"
+  ],
+  "dsh": {
+    "manifestVersion": 1,
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "inject": [
+        "slots"
+      ],
+      "immediately": true
+    }
+  }
+}
